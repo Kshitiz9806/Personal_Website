@@ -1,0 +1,147 @@
+header
+{
+	width:100%;
+	height:525px;
+	animation-name:anim2;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-iteration-count:1;
+	background-color:black;
+	
+}
+img
+{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+}
+p#name
+{
+	font-size:110px;
+	color:white;
+	letter-spacing:6px;
+	text-shadow:6px 6px 5px blue;
+	font-family: 'Bangers';
+	text-align:center;
+}
+p#a
+{
+	width:250px;
+	height:130px;
+	text-align:center;
+	color:black;
+	font-size:20px;
+	font-family:'Shojumaru';
+}
+body
+{
+	background-image:linear-gradient( aqua 0%,AliceBlue 70%);
+	width:99%;
+	float:right;
+	
+}
+div#header2 img
+{
+	transform:rotate(90deg);
+}
+div
+{
+	display:block;
+	width:250px;
+	height:280px;
+	animation-name:anim1;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-iteration-count:1;
+	background-color:white;
+	border-radius:10% 10% 0 0;
+}
+@keyframes anim1
+{
+	0%   {background-color:black;}
+	100% {background-color:white;}
+}
+@keyframes anim2
+{
+	0%   {background-color:white;}
+	100% {background-color:black;}
+}
+div#header1
+{
+	float:right;
+}
+footer
+{
+	width:100%;
+	height:400px;
+	background-color:black;
+	color:white;
+	padding:1px;
+}
+p#b
+{
+	background-color:red;
+	float:right;
+	width:300px;
+	text-align:right;
+	border-radius:50px 0px 0px 50px;
+}
+*, html
+{
+	margin:0;
+	padding:0;
+}
+p#c
+{
+	font-size:30px;
+	color:white;
+	font-weight:700;
+}
+a
+{
+	color:pink;
+}
+p#headings
+{
+	font-family:'Homemade Apple';
+	font-size:50px;
+	font-weight:900;
+}
+p#headings2
+{
+	font-family:'Rock Salt';
+	font-size:35px;
+	color:blue;
+	font-weight:700;
+}
+p#content
+{
+	font-family:'Abel';
+	font-size:20px;
+	font-weight:500;
+
+}
+p#headings3
+{
+	font-family:'Homemade Apple';
+	font-size:30px;
+	font-weight:900;
+}
+p#headings4
+{
+	font-family:'Rock Salt';
+	font-size:15px;
+	color:blue;
+	font-weight:700;
+}
+body *
+{
+	text-align:center;
+}
+p#linking
+{
+	font-family:'Homemade Apple';
+	font-size:30px;
+	font-weight:900;
+	
+}

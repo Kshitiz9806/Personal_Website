@@ -1,0 +1,111 @@
+header
+{
+	width:100%;
+	height:280px;
+	animation-name:anim2;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-iteration-count:1;
+	background-color:black;
+	
+}
+p#name
+{
+	font-size:110px;
+	color:white;
+	letter-spacing:6px;
+	text-shadow:6px 6px 5px blue;
+	font-family: 'Bangers';
+	text-align:center;
+}
+body
+{
+	background-image:linear-gradient( aqua 0%,AliceBlue 70%);
+	width:99%;
+	float:right;
+	
+}
+@keyframes anim2
+{
+	0%   {background-color:white;}
+	100% {background-color:black;}
+}
+footer
+{
+	width:100%;
+	height:300px;
+	background-color:black;
+	color:white;
+	padding:1px;
+}
+*, html
+{
+	margin:0;
+	padding:0;
+}
+p#headings3
+{
+	font-family:'Homemade Apple';
+	font-size:30px;
+	font-weight:900;
+}
+body *
+{
+	text-align:center;
+}
+a
+{
+	color:pink;
+}
+p#headings2
+{
+	font-family:'Rock Salt';
+	font-size:35px;
+	color:blue;
+	font-weight:700;
+}
+input#a
+{
+	width:300px;
+	height:30px;
+}
+input#email
+{
+	width:600px;
+	height:30px;
+}
+p#headings
+{
+	font-family:'Homemade Apple';
+	font-size:50px;
+	font-weight:900;
+}
+p#content
+{
+	font-family:'Abel';
+	font-size:40px;
+	font-weight:500;
+
+}
+input#radio
+{
+	width:30px;
+	height:30px;
+}
+textarea
+{
+	width:600px;
+	height:200px;
+}
+div#flash
+{
+	animation-name:animation;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+}
+@keyframes animation
+{
+	0%  		{background-color:black;}
+	100%		{background-color:white;}
+}
