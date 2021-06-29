@@ -42,7 +42,7 @@ body
 }
 div#header2 img
 {
-	transform:rotate(90deg);
+	/*transform:rotate(90deg);*/
 }
 div
 {
